@@ -1,0 +1,41 @@
+#aakash{
+    height: 200px;
+    width:200px;
+    background: orangered;
+    float: left;
+    box-shadow: 15px 20px gold;
+}
+.rahul{
+    height: 200px;
+    width:200px;
+    background:skyblue;
+    float: left;
+    border: 5px solid black;
+    border-radius: 50%;
+
+}
+h1{
+    text-shadow: 5px 10px red;
+    color:violet;
+    font-size:50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background:linear-gradient(to left, red, yellow, green,blue,purple)
+}
+
+#hoverme{
+    height: 50px;
+    width:50px;
+    background:skyblue;
+    border: 5px solid black;
+    margin-top:240px;
+}
+
+#hoverme:hover{
+    background: fuchsia;
+    width:400px;
+    height:400px;
+}
+
+
