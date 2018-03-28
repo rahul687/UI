@@ -1,0 +1,17 @@
+body{
+    background:linear-gradient(to left, rgb(241, 127, 127), rgb(240, 240, 65))
+}
+
+#hoverme{
+    height: 50px;
+    width:50px;
+    background:skyblue;
+    border: 5px solid black;
+    margin-top:240px;
+}
+
+#hoverme:hover{
+    background: fuchsia;
+    width:400px;
+    height:400px;
+}
