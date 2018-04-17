@@ -35,6 +35,80 @@ t.splice(1,2,"angular","reactjs")
 4.	__proto__:Array(0)
 
 
+// OBJECT
+
+var animal =
+{
+    color:'black',
+    age:10,
+    add:function(a,b){return a+b},
+    sub:function(a,b){return a-b}
+}
+undefined
+animal
+{color: "black", age: 10, add: ƒ, sub: ƒ}
+animal.add(2,3)
+5
+animal.sub(3-4)
+NaN
+animal.sub(3-1)
+NaN
+var animal =
+{
+    color:'black',
+    age:10,
+    add:function(a,b){return a+b},
+    sub:function(a,b){return parseInt(a)-parseInt(b)}
+}
+undefined
+animal.sub(4-3)
+NaN
+animal.sub(4,3)
+1
+var car = new Object();
+car.brand="audi";
+car.color="red";
+"red"
+car
+{brand: "audi", color: "red"}
+car.brand
+"audi"
+car["brand"]
+"audi"
+var bob = new Object();
+bob.age=10
+bob.setage= function(newAge){
+    bob.age = newAge
+}
+ƒ (newAge){
+    bob.age = newAge
+}
+bob
+{age: 10, setage: ƒ}
+bob.age
+10
+bob.setage(20)
+undefined
+bob.age
+20
+var setage = function(newAge){
+    this.age=newAge
+}
+
+var john = new Object()
+john.age=20;
+john.setage= setage
+ƒ (newAge){
+    this.age=newAge
+}
+john
+{age: 20, setage: ƒ}age: 49setage: ƒ (newAge)__proto__: Object
+john.setage(49)
+undefined
+john
+{age: 49, setage: ƒ}age: 49setage: ƒ (newAge)__proto__: Object
+
+
 varcar=["jeep","wrangler",20,32.87, "xuv500",29]
 undefined
 varperson=["bhupesh","chotu","crash",983,838 ]

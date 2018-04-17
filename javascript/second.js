@@ -50,3 +50,25 @@ if(name=="rahul" && city=="newyork"){
 }else{
     console.log(" i adont know")
 }
+
+
+function add(a,b){
+    return a+b
+}
+
+function check(name,city){
+    if(name=="rahul" && city=="newyork"){
+        console.log("Allow access")
+    }else if(name=="aakash"||name=="parul"){
+        console.log(" dont allow")
+    }else{
+        console.log(" i adont know")
+    } 
+}
+
+var a = [1,2,3,4]
+a[0]
+
+for(i=0;i<10;i++){
+    console.log(i)
+}
