@@ -189,3 +189,75 @@ if(nmbr%6==1){
 }
 VM98:5 number is odd
 undefined
+
+
+// object example
+var car={
+    color:'red',
+    model:'jeep',  
+    
+    drive:'four wheel drive' }
+    undefined
+    car.color
+    "red"
+    car.model
+    "jeep"
+    car.drive
+    "four wheel drive"
+    var car={
+    color:'red',
+    model : 'jeep',  
+    sunroof:'no',
+    drive : 'four wheel drive'}
+    undefined
+    car.sunroof
+    "no"
+    var bike =
+        {
+    color:"black",
+    brand:"Bullet",
+    fuel:"petrol",
+    add:function(a,b){return a+b}
+        }   
+    undefined
+    bike.add
+    ƒ (a,b){return a+b}
+    bike.add("bullet","kadak")
+    "bulletkadak"
+    bike.add("honda" , " CBZ" )
+    "honda CBZ"
+    
+    
+    //Object another example
+    
+    var person= {
+    name:[ 'rahul','work'],
+    age:30,
+    gender: ['male','female'],
+    
+    }
+    undefined
+    person.gender
+    (2) ["male", "female"]0: "male"1: "female"length: 2__proto__: Array(0)
+    var person= {
+    name:[ 'rahul','work'],
+    age:30,
+    gender: ['male'],
+    
+    }
+    undefined
+    person.gender
+    ["male"]
+    functioncarWork(){
+    var car ="JEEP";
+    
+    }
+    undefined
+    carWork.name
+    "carWork"
+    window.carWork
+    ƒcarWork(){
+    var car ="JEEP";
+    
+    }
+    

@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Example!</title>
+        <script>
+            function add(){
+                var a = document.getElementById('first').value
+                var b = document.getElementById('second').value
+
+                var c = parseInt(a)+parseInt(b)
+                console.log(c)
+                document.getElementById("output").innerHTML="add of number is "+c
+
+            }
+        </script>
+
+    </head>
+    <body>
+        <input type="button" onclick="rahulClick()" value="click me"><br/>
+        Enter your name <input type="text" id="fname" onblur="myFun()">
+        Number <input type="text" class="number" onblur="myFun1()">
+        <br><hr>
+        <input type="text"  id="first">
+        <br>
+        <input type="text"  id="second">
+        <br/>
+        <input type="button"  id="add" onclick="add()" value="add">
+        <p id="output">hii</p>
+        <script>
+            function rahulClick(){
+                alert("i am clicked")
+            }
+            function myFun(){
+                var x = document.getElementById("fname");
+                x.value = x.value.toUpperCase()
+            }
+            function myFun1(){
+                var t = document.getElementsByClassName("number")[0];
+                t.value = "+1 "+t.value
+            }
+        </script>
+
+    </body>
+</html>
