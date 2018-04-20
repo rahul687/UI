@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("#hide").click(function(){
+                    $("div").hide(5000);
+                })
+                $(".show").click(function(){
+                    $("div").show(5000);
+                })
+                $("#toggle").click(function(){
+                    $("#myDiv").toggle(5000);
+                })
+                $("#fadein").click(function(){
+                    $("#rahul1").fadeIn(5000);
+                })
+                $(".rahul").click(function(){
+                    $("#rahul1").fadeOut(5000);
+                })
+                $(".aakash").click(function(){
+                    $("#anima1").css("background-color","yellow")
+                })
+            })
+        </script>
+    </head>
+    <body>
+        <button id="hide">Hide</button>
+        <button class="show">Show</button>
+        <div style="height:200px;width:200px;background-color:brown"></div>
+        <button id="toggle">Toggle</button>
+        <div id="myDiv" style="height:200px;width:200px;background-color:green"></div>
+        <button id="fadein">FadeIn</button>
+        <button class="rahul">FadeOut</button>
+        <div id="rahul1" style="height:200px;width:200px;background-color:red"></div>
+        <button class="aakash">Animate</button>
+        <div id="anima1" style="height:200px;width:200px;background-color:blue"></div>
+    </body>
+</html>
