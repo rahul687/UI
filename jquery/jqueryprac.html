@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+
+          
+        <script>
+            $(document).ready(function(){
+                $(".up-btn").click(function(){
+                    $("p").slideUp();
+                })
+                $(".down-btn").click(function(){
+                    $("p").slideDown();
+                })
+                $("#fadein").click(function(){
+                    $("#fade").fadeIn(2000);
+                })
+                $("#fadeout").click(function(){
+                    $("#fade").fadeOut(2000);
+                })
+                
+                
+            })
+                   
+
+            </script>
+
+        <body>
+            <button type="button" class="up-btn">Slide Up Content</button> 
+            <button type="button" class="down-btn">Slide Down Content</button>
+            <p>This is button to slide up.</p>
+            <p>This is another content to go up.</p>
+            <div style="height:40px;width:35px;background-color:yellowgreen"></div>
+            <br>
+            <button id ="fadein">FadeIn</button>
+            <button id ="fadeout">FadeOut</button>
+            <div id "fade" style ="height:40px;width:35px;background-color:violet"></div>
+            
+            
+     
+        </body>
+
+    </head>
+</html>
